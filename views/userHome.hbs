@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Welcome,{{welcome}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+
+                 <button style="height:50px" class="btn btn-danger"><a href="/userLogout" class="nav-link" href="#">LogOut</a></button>
+                
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to Your Website</h1>
+    <p class="lead">This is a simple and clean home page template.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Section 1</h2>
+            <p>This is some content for Section 1.</p>
+        </div>
+        <div class="col-md-6">
+            <h2>Section 2</h2>
+            <p>This is some content for Section 2.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and jQuery (optional, for certain Bootstrap features) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
